@@ -1,9 +1,9 @@
 ﻿{
-  "name": "OoT Randomizer - Map and Item Tracker",
+  "name": "OoT Randomizer - Map and Item Tracker ER Good",
   "game_name": "Ocarina of Time Randomizer",
   "package_version": "2.3.0.0",
-  "package_uid": "ootrando_overworldmap_hamsda",
-  "author": "Hamsda",
+  "package_uid": "ootrando_overworldmap_ERGood_hamsda",
+  "author": "Hamsda&Edos",
   "variants": {
     "standard": {
       "display_name": "Regular Map Tracker"
@@ -19,6 +19,12 @@
     },
     "var_minimalist": {
       "display_name": "Items Only (minimal)"
+    },
+    "var_ER": {
+      "display_name": "Dungeon Entrance Randomizer"
+    },
+    "var_ER_keysanity": {
+      "display_name": "Dungeon Entrance Randomizer and Keysanity"
     }
   }
 }

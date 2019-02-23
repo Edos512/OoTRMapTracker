@@ -1,0 +1,760 @@
+[
+	{
+		"name": "Deku Tree Entrance",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/label_deku.png",
+				"codes": "deku_entrance,deku_deku_entrance"
+			},
+			{
+				"img": "images/label_dodongo.png",
+				"codes": "deku_entrance,deku_dodongo_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_jabu.png",
+				"codes": "deku_entrance,deku_jabu_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_forest.png",
+				"codes": "deku_entrance,deku_forest_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_fire.png",
+				"codes": "deku_entrance,deku_fire_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_water.png",
+				"codes": "deku_entrance,deku_water_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_spirit.png",
+				"codes": "deku_entrance,deku_spirit_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_shadow.png",
+				"codes": "deku_entrance,deku_shadow_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_botw.png",
+				"codes": "deku_entrance,deku_botw_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_ice.png",
+				"codes": "deku_entrance,deku_ice_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_gtg.png",
+				"codes": "deku_entrance,deku_gtg_entrance",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Dodongo cavern Entrance",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/label_dodongo.png",
+				"codes": "dodongo_entrance,dodongo_dodongo_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_jabu.png",
+				"codes": "dodongo_entrance,dodongo_jabu_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_forest.png",
+				"codes": "dodongo_entrance,dodongo_forest_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_fire.png",
+				"codes": "dodongo_entrance,dodongo_fire_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_water.png",
+				"codes": "dodongo_entrance,dodongo_water_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_spirit.png",
+				"codes": "dodongo_entrance,dodongo_spirit_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_shadow.png",
+				"codes": "dodongo_entrance,dodongo_shadow_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_botw.png",
+				"codes": "dodongo_entrance,dodongo_botw_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_ice.png",
+				"codes": "dodongo_entrance,dodongo_ice_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_gtg.png",
+				"codes": "dodongo_entrance,dodongo_gtg_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_deku.png",
+				"codes": "dodongo_entrance,dodongo_deku_entrance",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Jabu Jabu Belly Entrance",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/label_jabu.png",
+				"codes": "jabu_entrance,jabu_jabu_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_forest.png",
+				"codes": "jabu_entrance,jabu_forest_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_fire.png",
+				"codes": "jabu_entrance,jabu_fire_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_water.png",
+				"codes": "jabu_entrance,jabu_water_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_spirit.png",
+				"codes": "jabu_entrance,jabu_spirit_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_shadow.png",
+				"codes": "jabu_entrance,jabu_shadow_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_botw.png",
+				"codes": "jabu_entrance,jabu_botw_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_ice.png",
+				"codes": "jabu_entrance,jabu_ice_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_gtg.png",
+				"codes": "jabu_entrance,jabu_gtg_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_deku.png",
+				"codes": "jabu_entrance,jabu_deku_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_dodongo.png",
+				"codes": "jabu_entrance,jabu_dodongo_entrance",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Forest Temple Entrance",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/label_forest.png",
+				"codes": "forest_entrance,forest_forest_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_fire.png",
+				"codes": "forest_entrance,forest_fire_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_water.png",
+				"codes": "forest_entrance,forest_water_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_spirit.png",
+				"codes": "forest_entrance,forest_spirit_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_shadow.png",
+				"codes": "forest_entrance,forest_shadow_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_botw.png",
+				"codes": "forest_entrance,forest_botw_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_ice.png",
+				"codes": "forest_entrance,forest_ice_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_gtg.png",
+				"codes": "forest_entrance,forest_gtg_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_deku.png",
+				"codes": "forest_entrance,forest_deku_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_dodongo.png",
+				"codes": "forest_entrance,forest_dodongo_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_jabu.png",
+				"codes": "forest_entrance,forest_jabu_entrance",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Fire Temple Entrance",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/label_fire.png",
+				"codes": "fire_entrance,fire_fire_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_water.png",
+				"codes": "fire_entrance,fire_water_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_spirit.png",
+				"codes": "fire_entrance,fire_spirit_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_shadow.png",
+				"codes": "fire_entrance,fire_shadow_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_botw.png",
+				"codes": "fire_entrance,fire_botw_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_ice.png",
+				"codes": "fire_entrance,fire_ice_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_gtg.png",
+				"codes": "fire_entrance,fire_gtg_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_deku.png",
+				"codes": "fire_entrance,fire_deku_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_dodongo.png",
+				"codes": "fire_entrance,fire_dodongo_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_jabu.png",
+				"codes": "fire_entrance,fire_jabu_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_forest.png",
+				"codes": "fire_entrance,fire_forest_entrance",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Water Temple Entrance",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/label_water.png",
+				"codes": "water_entrance,water_water_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_spirit.png",
+				"codes": "water_entrance,water_spirit_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_shadow.png",
+				"codes": "water_entrance,water_shadow_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_botw.png",
+				"codes": "water_entrance,water_botw_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_ice.png",
+				"codes": "water_entrance,water_ice_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_gtg.png",
+				"codes": "water_entrance,water_gtg_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_deku.png",
+				"codes": "water_entrance,water_deku_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_dodongo.png",
+				"codes": "water_entrance,water_dodongo_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_jabu.png",
+				"codes": "water_entrance,water_jabu_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_forest.png",
+				"codes": "water_entrance,water_forest_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_fire.png",
+				"codes": "water_entrance,water_fire_entrance",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Spirit Temple Entrance",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/label_spirit.png",
+				"codes": "spirit_entrance,spirit_spirit_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_shadow.png",
+				"codes": "spirit_entrance,spirit_shadow_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_botw.png",
+				"codes": "spirit_entrance,spirit_botw_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_ice.png",
+				"codes": "spirit_entrance,spirit_ice_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_gtg.png",
+				"codes": "spirit_entrance,spirit_gtg_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_deku.png",
+				"codes": "spirit_entrance,spirit_deku_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_dodongo.png",
+				"codes": "spirit_entrance,spirit_dodongo_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_jabu.png",
+				"codes": "spirit_entrance,spirit_jabu_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_forest.png",
+				"codes": "spirit_entrance,spirit_forest_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_fire.png",
+				"codes": "spirit_entrance,spirit_fire_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_water.png",
+				"codes": "spirit_entrance,spirit_water_entrance",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Shadow Temple Entrance",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/label_shadow.png",
+				"codes": "shadow_entrance,shadow_shadow_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_botw.png",
+				"codes": "shadow_entrance,shadow_botw_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_ice.png",
+				"codes": "shadow_entrance,shadow_ice_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_gtg.png",
+				"codes": "shadow_entrance,shadow_gtg_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_deku.png",
+				"codes": "shadow_entrance,shadow_deku_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_dodongo.png",
+				"codes": "shadow_entrance,shadow_dodongo_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_jabu.png",
+				"codes": "shadow_entrance,shadow_jabu_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_forest.png",
+				"codes": "shadow_entrance,shadow_forest_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_fire.png",
+				"codes": "shadow_entrance,shadow_fire_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_water.png",
+				"codes": "shadow_entrance,shadow_water_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_spirit.png",
+				"codes": "shadow_entrance,shadow_spirit_entrance",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "ice_entrance,ice cavern Entrance",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/label_ice.png",
+				"codes": "ice_entrance,ice_ice_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_gtg.png",
+				"codes": "ice_entrance,ice_gtg_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_deku.png",
+				"codes": "ice_entrance,ice_deku_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_dodongo.png",
+				"codes": "ice_entrance,ice_dodongo_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_jabu.png",
+				"codes": "ice_entrance,ice_jabu_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_forest.png",
+				"codes": "ice_entrance,ice_forest_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_fire.png",
+				"codes": "ice_entrance,ice_fire_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_water.png",
+				"codes": "ice_entrance,ice_water_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_spirit.png",
+				"codes": "ice_entrance,ice_spirit_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_shadow.png",
+				"codes": "ice_entrance,ice_shadow_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_botw.png",
+				"codes": "ice_entrance,ice_botw_entrance",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Gerudo Trainin Grounds Entrance",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/label_gtg.png",
+				"codes": "gtg_entrance,gtg_gtg_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_deku.png",
+				"codes": "gtg_entrance,gtg_deku_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_dodongo.png",
+				"codes": "gtg_entrance,gtg_dodongo_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_jabu.png",
+				"codes": "gtg_entrance,gtg_jabu_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_forest.png",
+				"codes": "gtg_entrance,gtg_forest_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_fire.png",
+				"codes": "gtg_entrance,gtg_fire_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_water.png",
+				"codes": "gtg_entrance,gtg_water_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_spirit.png",
+				"codes": "gtg_entrance,gtg_spirit_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_shadow.png",
+				"codes": "gtg_entrance,gtg_shadow_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_botw.png",
+				"codes": "gtg_entrance,gtg_botw_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_ice.png",
+				"codes": "gtg_entrance,gtg_ice_entrance",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Bottom of the well Entrance",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/label_botw.png",
+				"codes": "botw_botw_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_ice.png",
+				"codes": "botw_entrance,botw_ice_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_gtg.png",
+				"codes": "botw_entrance,botw_gtg_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_deku.png",
+				"codes": "botw_entrance,botw_deku_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_dodongo.png",
+				"codes": "botw_entrance,botw_dodongo_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_jabu.png",
+				"codes": "botw_entrance,botw_jabu_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_forest.png",
+				"codes": "botw_entrance,botw_forest_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_fire.png",
+				"codes": "botw_entrance,botw_fire_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_water.png",
+				"codes": "botw_entrance,botw_water_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_spirit.png",
+				"codes": "botw_entrance,botw_spirit_entrance",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/label_shadow.png",
+				"codes": "botw_entrance,botw_shadow_entrance",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Deku entrance Label",
+		"type": "static",
+		"img": "images/label_deku.png",
+		"codes": "dekuentrancelabel"
+	},
+	{
+		"name": "Dodongo entrance Label",
+		"type": "static",
+		"img": "images/label_dodongo.png",
+		"codes": "dodongoentrancelabel"
+	},
+	{
+		"name": "Jabu entrance Label",
+		"type": "static",
+		"img": "images/label_jabu.png",
+		"codes": "jabuentrancelabel"
+	},
+	{
+		"name": "Forest entrance Label",
+		"type": "static",
+		"img": "images/label_forest.png",
+		"codes": "forestentrancelabel"
+	},
+	{
+		"name": "Fire entrance Label",
+		"type": "static",
+		"img": "images/label_fire.png",
+		"codes": "fireentrancelabel"
+	},
+	{
+		"name": "Water entrance Label",
+		"type": "static",
+		"img": "images/label_water.png",
+		"codes": "waterentrancelabel"
+	},
+	{
+		"name": "Spirit entrance Label",
+		"type": "static",
+		"img": "images/label_spirit.png",
+		"codes": "spiritentrancelabel"
+	},
+	{
+		"name": "Shadow entrance Label",
+		"type": "static",
+		"img": "images/label_shadow.png",
+		"codes": "shadowentrancelabel"
+	},
+	{
+		"name": "BOTW entrance Label",
+		"type": "static",
+		"img": "images/label_botw.png",
+		"codes": "botwentrancelabel"
+	},
+	{
+		"name": "Ice entrance Label",
+		"type": "static",
+		"img": "images/label_ice.png",
+		"codes": "iceentrancelabel"
+	},
+	{
+		"name": "GTG entrance Label",
+		"type": "static",
+		"img": "images/label_gtg.png",
+		"codes": "gtgentrancelabel"
+	}
+]
