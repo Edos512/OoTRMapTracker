@@ -331,50 +331,56 @@
         {
         	"type" : "itemgrid",
         	"h_alignment": "center",
-        	"item_margin": "1,2",
+        	"item_margin": "1,0",
         	"rows": [
             	[
                 	"dekuentrancelabel",
-                	"deku_entrance"
-                ],
-             	[
+                	"arrowlabel",
+                	"deku_entrance",
                 	"dodongoentrancelabel",
+                	"arrowlabel",
                 	"dodongo_entrance"
                 ],
+             	
                 [
                 	"jabuentrancelabel",
-                	"jabu_entrance"
-                ],
-                [
+                	"arrowlabel",
+                	"jabu_entrance",
                 	"forestentrancelabel",
+                		"arrowlabel",
                 	"forest_entrance"
                 ],
+                
                 [
                 	"fireentrancelabel",
-                	"fire_entrance"
-                ],
-                [
+                		"arrowlabel",
+                	"fire_entrance",
                 	"waterentrancelabel",
+                		"arrowlabel",
                 	"water_entrance"
                 ],
+                
                 [
                 "spiritentrancelabel",
-                "spirit_entrance"
-                ],
-                [
+                	"arrowlabel",
+                "spirit_entrance",
                 "shadowentrancelabel",
+                	"arrowlabel",
                 "shadow_entrance"
                 ],
+                
                 [
                 "botwentrancelabel",
-                "botw_entrance"
-                ],
-                [
+                	"arrowlabel",
+                "botw_entrance",
                 "iceentrancelabel",
+                	"arrowlabel",
                 "ice_entrance"
                 ],
+                
                 [
                 "gtgentrancelabel",
+                	"arrowlabel",
                 "gtg_entrance"
                 ]
                 

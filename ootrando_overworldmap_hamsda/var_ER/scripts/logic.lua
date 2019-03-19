@@ -63,6 +63,8 @@ function can_stun_deku()
   end
 end
 
+
+
 function can_LA()
   if has("sword2")
   and has("magic")
@@ -132,6 +134,13 @@ function can_leave_forest()
 end
 
 function colossus()
+
+  if checkSpiritChildBackAccess('any') then
+    return 1
+  end
+  if checkSpiritAdultBackAccess('any') then
+    return 1
+  end
   if has("ocarina")
   and has("requiem")
   then
@@ -253,13 +262,15 @@ end
 
 function child_entrance(dungeon)
 	 local deku = Tracker:ProviderCountForCode("deku_"..dungeon.."_entrance")
-	 
+	 if (has("open_forest",0) and has("deku",0)) then
+	   return deku;
+	 end
 	 local dodongo = 0
-	 	if has_explosives() or has("lift1") then
+	 	if (has("open_kak") or has("letter")) and (has_explosives() or has("lift1")) then
 	 		dodongo=Tracker:ProviderCountForCode("dodongo_"..dungeon.."_entrance")
 	 	end
 	 local jabu = 0
-	 	if has("ruto") and (has("scale") or (has("zl") and has_explosives())) then
+	 	if has("ruto") or (has("open_fountain") and has("bottle")) and (has("scale") or (has("zl") and has("ocarina") and has_explosives())) then
 	 		jabu=Tracker:ProviderCountForCode("jabu_"..dungeon.."_entrance")
 	 	end
 	 
@@ -268,28 +279,33 @@ function child_entrance(dungeon)
 	 	botw=Tracker:ProviderCountForCode("botw_"..dungeon.."_entrance")
 	 end
 	 local spirit = 0
-	 if has("ocarina") and has("ros") then
+	 if (has("ocarina") and has("ros")) or checkSpiritChildBackAccess(dungeon) then
 	 	spirit=Tracker:ProviderCountForCode("spirit_"..dungeon.."_entrance")
 	 end
 	 local shadow = 0
 	 if has("ocarina") and has("nocturne") and has("magic") and has("dinsfire") then
 	 	shadow=Tracker:ProviderCountForCode("shadow_"..dungeon.."_entrance")
 	 end
-	 return deku+dodongo+jabu+botw+spirit+shadow
+	 local fire = 0
+	 if (has("bolero") and has("ocarina")) then
+	   fire =Tracker:ProviderCountForCode("fire_"..dungeon.."_entrance")
+	 end
+	 return deku+dodongo+jabu+botw+spirit+shadow+fire
 end
 
 function adult_entrance(dungeon)
 
-	if has("sword2")==0 then
+	if has("sword2",0) then
 		return 0
 	end
+	 local deku = Tracker:ProviderCountForCode("deku_"..dungeon.."_entrance")
 	 local dodongo = Tracker:ProviderCountForCode("dodongo_"..dungeon.."_entrance")
 	 local forest = 0
 	 if has("ocarina") and (has("minuet") or has("saria")) and has("hookshot") then
 	 	forest =Tracker:ProviderCountForCode("forest_"..dungeon.."_entrance")
 	 end
 	 local fire = 0
-	 if(has("bolero") and has("ocarina")) or ((has_explosives() or has("bow") or has("lift1")) and (has("hookshot") or has("hovers"))) then
+	 if(has("bolero") and has("ocarina")) or ((has_explosives() or has("bow") or has("lift1")) and (has("hookshot") or has("hovers"))) and has_goron_tunic() then
 	 	fire =Tracker:ProviderCountForCode("fire_"..dungeon.."_entrance")
 	 end
 	 
@@ -302,7 +318,7 @@ function adult_entrance(dungeon)
 	 	botw=Tracker:ProviderCountForCode("botw_"..dungeon.."_entrance")
 	 end
 	 local spirit = 0
-	 if (has("ocarina") and has("ros")) or (has("epona") or has("longshot")) then
+	 if (has("ocarina") and has("ros")) or (((has("epona") and has("ocarina")) or has("longshot")) and (has("carpenter_rescue_yes") or has("gerudo_fortress_open")) and (has("magic") and has("lens") and (has("hovers") or has("longshot")))) or checkSpiritAdultBackAccess(dungeon) then
 	 	spirit = Tracker:ProviderCountForCode("spirit_"..dungeon.."_entrance")
 	 end
 	 local shadow = 0
@@ -310,12 +326,41 @@ function adult_entrance(dungeon)
 	 	shadow=Tracker:ProviderCountForCode("shadow_"..dungeon.."_entrance")
 	 end
 	 local ice = 0
-	 if has("ruto") and (has("scale") or (has("zl") and has_explosives())) then
+	 if has("ocarina") and has("zl") and ((has("ruto") and (has("scale") or has_explosives())) or (has("open_fountain"))) then
 	 	ice = Tracker:ProviderCountForCode("ice_"..dungeon.."_entrance")
 	 end
 	 local gtg=0
-	 if has("card") and (has("epona") or has("longshot")) then
+	 if has("card") and (((has("epona") and has("ocarina")) or has("longshot")) and (has("carpenter_rescue_yes") or has("gerudo_fortress_open"))) then
 	 	gtg = Tracker:ProviderCountForCode("gtg_"..dungeon.."_entrance")
 	 end
-	 return dodongo+forest+fire+water+botw+spirit+shadow+ice+gtg
+	 return dodongo+forest+fire+water+botw+spirit+shadow+ice+gtg+deku
 end
+
+function checkSpiritChildBackAccess(dungeon)
+
+  if dungeon == 'spirit' then
+    return 0
+  end
+  if child_entrance('spirit')==0 then
+    return 0
+  end
+  if has_explosives() then
+    return 1
+  end
+  return 0
+end
+
+function checkSpiritAdultBackAccess(dungeon)
+
+  if dungeon == 'spirit' then
+    return 0
+  end
+  if adult_entrance('spirit')==0 then
+    return 0
+  end
+  if has('lift2') and has_explosives() then
+    return 1
+  end
+  return 0
+end
+

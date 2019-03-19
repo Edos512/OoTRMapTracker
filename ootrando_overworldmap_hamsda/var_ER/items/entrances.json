@@ -2,7 +2,7 @@
 	{
 		"name": "Deku Tree Entrance",
 		"type": "progressive",
-		"allow_disabled": false,
+		
 		"loop": true,
 		"stages": [
 			{
@@ -64,7 +64,7 @@
 	{
 		"name": "Dodongo cavern Entrance",
 		"type": "progressive",
-		"allow_disabled": false,
+		
 		"loop": true,
 		"stages": [
 			{
@@ -127,7 +127,7 @@
 	{
 		"name": "Jabu Jabu Belly Entrance",
 		"type": "progressive",
-		"allow_disabled": false,
+		
 		"loop": true,
 		"stages": [
 			{
@@ -190,7 +190,7 @@
 	{
 		"name": "Forest Temple Entrance",
 		"type": "progressive",
-		"allow_disabled": false,
+		
 		"loop": true,
 		"stages": [
 			{
@@ -253,7 +253,7 @@
 	{
 		"name": "Fire Temple Entrance",
 		"type": "progressive",
-		"allow_disabled": false,
+		
 		"loop": true,
 		"stages": [
 			{
@@ -316,7 +316,7 @@
 	{
 		"name": "Water Temple Entrance",
 		"type": "progressive",
-		"allow_disabled": false,
+		
 		"loop": true,
 		"stages": [
 			{
@@ -379,7 +379,7 @@
 	{
 		"name": "Spirit Temple Entrance",
 		"type": "progressive",
-		"allow_disabled": false,
+		
 		"loop": true,
 		"stages": [
 			{
@@ -442,7 +442,7 @@
 	{
 		"name": "Shadow Temple Entrance",
 		"type": "progressive",
-		"allow_disabled": false,
+		
 		"loop": true,
 		"stages": [
 			{
@@ -505,7 +505,7 @@
 	{
 		"name": "ice_entrance,ice cavern Entrance",
 		"type": "progressive",
-		"allow_disabled": false,
+		
 		"loop": true,
 		"stages": [
 			{
@@ -568,7 +568,7 @@
 	{
 		"name": "Gerudo Trainin Grounds Entrance",
 		"type": "progressive",
-		"allow_disabled": false,
+		
 		"loop": true,
 		"stages": [
 			{
@@ -631,7 +631,7 @@
 	{
 		"name": "Bottom of the well Entrance",
 		"type": "progressive",
-		"allow_disabled": false,
+		
 		"loop": true,
 		"stages": [
 			{
@@ -756,5 +756,11 @@
 		"type": "static",
 		"img": "images/label_gtg.png",
 		"codes": "gtgentrancelabel"
+	},
+	{
+		"name": "Arrow Label",
+		"type": "static",
+		"img": "images/arrow.png",
+		"codes": "arrowlabel"
 	}
 ]

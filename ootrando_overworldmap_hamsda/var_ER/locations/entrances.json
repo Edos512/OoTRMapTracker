@@ -1,0 +1,357 @@
+[
+	{
+		"name": "Deku Tree Entrance",
+		"access_rules": [
+			"open_forest",
+			"sword1",
+			"shield1",
+			"sword2"
+		],
+		"sections": [
+			{
+				"name": "Entrance",
+				"short_name": "Find it",
+				"item_count": 1,
+				"chest_unopened_img": "images/cave.png",
+				"chest_opened_img": "images/caveOpened.png"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "child",
+				"x": 2392,
+				"y": 830
+			},
+			{
+				"map": "adult",
+				"x": 2392,
+				"y": 830
+			}
+		]
+	},
+	{
+		"name": "Dodongos Cave Entrance",
+		"access_rules": [
+			"sword2",
+			"open_forest,open_kak,lift1",
+			"open_forest,open_kak,$has_explosives",
+			"deku,open_kak,lift1",
+			"deku,open_kak,$has_explosives",
+			"open_forest,letter,lift1",
+			"open_forest,letter,$has_explosives",
+			"deku,letter,lift1",
+			"deku,letter,$has_explosives"
+		],
+		"sections": [
+			{
+				"name": "Entrance",
+				"short_name": "Beware of pollen and carnivorous plants",
+				"item_count": 1,
+				"chest_unopened_img": "images/cave.png",
+				"chest_opened_img": "images/caveOpened.png"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "child",
+				"x": 1684,
+				"y": 250
+			},
+			{
+				"map": "adult",
+				"x": 1684,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "Dodongos Cave Entrance",
+		"access_rules": [
+			"sword2",
+			"$can_leave_forest,open_kak,lift1",
+			"$can_leave_forest,open_kak,$has_explosives",
+			"$can_leave_forest,letter,lift1",
+			"$can_leave_forest,letter,$has_explosives"
+		],
+		"sections": [
+			{
+				"name": "Entrance",
+				"short_name": "Better have ear plugs,so many explosions",
+				"item_count": 1,
+				"chest_unopened_img": "images/cave.png",
+				"chest_opened_img": "images/caveOpened.png"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "child",
+				"x": 1684,
+				"y": 250
+			},
+			{
+				"map": "adult",
+				"x": 1684,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "Jabu Jabu Entrance",
+		"access_rules": [
+			"$can_leave_forest,ocarina,zl,$has_explosives,ruto",
+			"$can_leave_forest,ocarina,zl,$has_explosives,open_fountain,bottle",
+			"$can_leave_forest,scale,$has_explosives,ruto",
+			"$can_leave_forest,scale,$has_explosives,open_fountain,bottle"	
+		],
+		"sections": [
+			{
+				"name": "Entrance",
+				"short_name": "Say aaaaah",
+				"item_count": 1,
+				"chest_unopened_img": "images/cave.png",
+				"chest_opened_img": "images/caveOpened.png"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "child",
+				"x": 2458,
+				"y": 358
+			}
+			
+		]
+	},
+	{
+		"name": "Forest Temple Entrance",
+		"access_rules": [
+			"sword2,minuet,hookshot,ocarina",
+			"sword2,saria,hookshot,ocarina"	
+		],
+		"sections": [
+			{
+				"name": "Entrance",
+				"short_name": "Look up",
+				"item_count": 1,
+				"chest_unopened_img": "images/cave.png",
+				"chest_opened_img": "images/caveOpened.png"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "adult",
+				"x": 2118,
+				"y": 596
+			}
+			
+		]
+	},
+	{
+		"name": "Fire Temple Entrance",
+		"access_rules": [
+			"$can_leave_forest,ocarina,bolero",
+			"sword2,$has_explosives,hookshot,$has_goron_tunic",
+			"sword2,$has_explosives,hovers,$has_goron_tunic",
+			"sword2,bow,hookshot,$has_goron_tunic",
+			"sword2,bow,hovers,$has_goron_tunic",
+			"sword2,lift1,hookshot,$has_goron_tunic",
+			"sword2,lift1,hovers,$has_goron_tunic"
+			
+		],
+		"sections": [
+			{
+				"name": "Entrance",
+				"short_name": "Hope sweat does not blurry your vision",
+				"item_count": 1,
+				"chest_unopened_img": "images/cave.png",
+				"chest_opened_img": "images/caveOpened.png"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "adult",
+				"x": 1882,
+				"y": 110
+			},
+			{
+				"map": "child",
+				"x": 1882,
+				"y": 110
+			}
+			
+		]
+	},
+	{
+		"name": "Water Temple Entrance",
+		"access_rules": [
+			"sword2,ironboots,hookshot,$has_zora_tunic",
+			"sword2,scale2,longshot,$has_zora_tunic"
+		],
+		"sections": [
+			{
+				"name": "Entrance",
+				"short_name": "Hold your breath",
+				"item_count": 1,
+				"chest_unopened_img": "images/cave.png",
+				"chest_opened_img": "images/caveOpened.png"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "adult",
+				"x": 1045,
+				"y": 1380
+			}
+			
+		]
+	}
+	,
+	{
+		"name": "Shadow Temple Entrance",
+		"access_rules": [
+			"$can_leave_forest,ocarina,nocturne,dinsfire,magic"
+		],
+		"sections": [
+			{
+				"name": "Entrance",
+				"short_name": "Follow the light of your heart",
+				"item_count": 1,
+				"chest_unopened_img": "images/cave.png",
+				"chest_opened_img": "images/caveOpened.png"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "adult",
+				"x": 2114,
+				"y": 326
+			},
+			{
+				"map": "child",
+				"x": 2114,
+				"y": 326
+			}
+			
+		]
+	}
+	,
+	{
+		"name": "Spirit Temple Entrance",
+		"access_rules": [
+			"$can_leave_forest,ocarina,requiem",
+			"ocarina,epona,sword2",
+			"longshot,sword2",
+			"$can_leave_forest,$checkSpiritChildBackAccess|any",
+			"$can_leave_forest,$checkSpiritAdultBackAccess|any"
+			
+		],
+		"sections": [
+			{
+				"name": "Entrance",
+				"short_name": "Empty your boots to walk confortably again",
+				"item_count": 1,
+				"chest_unopened_img": "images/cave.png",
+				"chest_opened_img": "images/caveOpened.png"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "adult",
+				"x": 115,
+				"y": 301
+			},
+			{
+				"map": "child",
+				"x": 115,
+				"y": 301
+			}
+			
+		]
+	}
+	,
+	{
+		"name": "Bottom of the well Entrance",
+		"access_rules": [
+			"$can_leave_forest,ocarina,sos"
+			
+		],
+		"sections": [
+			{
+				"name": "Entrance",
+				"short_name": "Beware of haircurls",
+				"item_count": 1,
+				"chest_unopened_img": "images/cave.png",
+				"chest_opened_img": "images/caveOpened.png"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "adult",
+				"x": 1890,
+				"y": 353
+			},
+			{
+				"map": "child",
+				"x": 1890,
+				"y": 353
+			}
+			
+		]
+	}
+	,
+	{
+		"name": "Ice Cavern Entrance",
+		"access_rules": [
+			"sword2,open_fountain,ocarina,zl",
+			"sword2,ocarina,zl,scale,ruto",
+			"sword2,ocarina,zl,$has_explosive,ruto"
+			
+		],
+		"sections": [
+			{
+				"name": "Entrance",
+				"short_name": "Brrrrrr",
+				"item_count": 1,
+				"chest_unopened_img": "images/cave.png",
+				"chest_opened_img": "images/caveOpened.png"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "adult",
+				"x": 2471,
+				"y": 306
+			}
+			
+		]
+	}
+	,
+	{
+		"name": "Gerudo Training Grounds Entrance",
+		"access_rules": [
+		
+			"sword2,card,epona,ocarina,carpenter_rescue_yes",
+			"sword2,card,epona,ocarina,gerudo_fortress_open",
+			"sword2,card,longshot,carpenter_rescue_yes",
+			"sword2,card,longshot,gerudo_fortress_open"
+			
+			
+		],
+		"sections": [
+			{
+				"name": "Entrance",
+				"short_name": "Watch your wallet",
+				"item_count": 1,
+				"chest_unopened_img": "images/cave.png",
+				"chest_opened_img": "images/caveOpened.png"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "adult",
+				"x": 511,
+				"y": 444
+			}
+			
+		]
+	}
+]
